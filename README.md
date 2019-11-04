@@ -1,2 +1,0 @@
-# basiclothes
-Created with CodeSandbox

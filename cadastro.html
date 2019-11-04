@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="src/cadastro.css" />
+    <meta charset="UTF-8" />
+    <title>Fênix</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>BASICLOTHES</h1>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="produtos.html">PRODUTOS</a>
+        <a href="contato.html">CONTATO</a>
+      </nav>
+      <form>
+        <label for="uname"><b>LOGIN :</b></label>
+        <input type="text" placeholder="" name="uname" required />
+        <br />
+        <label for="psw"><b>SENHA :</b></label>
+        <input type="password" placeholder="" name="psw" required />
+        <a href="cadastro.html">Cadastre-se</a>
+      </form>
+    </header>
+    <section class="container1">
+      <div class="container">
+        <h3>
+          EFETUE O CADASTRO E GANHE 10%OFF NA SUA PRIMEIRA COMPRA:
+        </h3>
+        <form class="formulariocontato" action="" method="" id="">
+          <!--conteúdo do formulário-->
+          <label>NOME COMPLETO:
+            
+            <input type="text" class="forminput" name="nome" id="name" />
+          </label>
+          <br />
+          <label>DATA DE NASCIMENTO:
+            <br />
+            <input type="date" class="forminput" name="date" id="date" />
+          </label>
+          <br />
+          <label>
+            <br />  
+            SEXO: 
+            <input type="radio" class="" name="sexo" id="sexy" /> Masculino
+            <input type="radio" class="" name="sexo" id="sexy" /> Feminino
+            <br />  
+          </label>
+          <br />
+          <label>CPF:
+            <br />
+          
+            <input
+              type="number"
+              class="forminput"
+              maxlength="14"
+              name="cpf"
+              id="cpfbr"
+            />
+          </label>
+          <br />
+          <label>Email:
+            <br />  
+            <input type="email" class="forminput" name="email" id="email" />
+          </label>
+          <br />
+          <label for="uname"><b>LOGIN :</b></label>
+          <input type="text" placeholder="ESCOLHA UM NOME PARA LOGIN" class="forminput" name="uname" required />
+          <br />
+          <label for="psw"><b>SENHA :</b></label>
+          <input type="password" class="forminput" placeholder="" name="psw" required />
+          </br>
+          <input type="button" class="formbutton" value="SALVAR" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>

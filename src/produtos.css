@@ -1,0 +1,142 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #d8d8d8;
+}
+header {
+  width: 100%;
+  background: #262626;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > h1 {
+  color: #d8d8d8;
+  margin-left: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+header > h1:hover {
+  color: #ff8700;
+  text-shadow: 1px 3px 1px black;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+nav {
+  width: 50%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav > a {
+  background: #d8d8d8;
+  margin: 5px;
+  padding: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+nav > a:hover {
+  background: #ff8700;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  color: black;
+}
+form {
+  color: white;
+  margin-right: 50px;
+}
+input {
+  border-radius: 3px;
+  background-color: #ff8700;
+  color: black;
+  padding: 3px;
+  width: 80px;
+}
+form > a {
+  font-size: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+form > a:hover {
+  opacity: 0.7;
+}
+section {
+  width: 600px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+.banner {
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+  background: #262626;
+  margin-top: 20px;
+}
+article {
+  background: #262626;
+  max-width: 800px;
+  height: 200px;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.article img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+h3 {
+  text-align: left;
+  margin-top: 40px;
+}
+.flex {
+  display: flex;
+  /*background: #c06666;*/
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 250px;
+  width: 250px;
+  box-shadow: 3px 3px #95a5a6;
+  cursor: pointer;
+}
+.img:hover {
+  opacity: 0.4;
+}
+
+/*Configuração minima pra cada item*/
+/*flex 1 - se expande*/
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+.flex h5 {
+  text-align: center;
+}
+.flex p {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 15px;
+}
+
+mark {
+  background: #fbb51f;
+}
+
+mark:hover {
+  background: #ff8700;
+}

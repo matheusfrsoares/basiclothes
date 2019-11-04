@@ -1,0 +1,166 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: #d8d8d8;
+}
+header {
+  width: 100%;
+  background: #262626;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > h1 {
+  color: #d8d8d8;
+  margin-left: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+header > h1:hover {
+  color: #ff8700;
+  text-shadow: 1px 3px 1px black;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+}
+nav {
+  width: 50%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+nav > a {
+  background: #d8d8d8;
+  margin: 5px;
+  padding: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+nav > a:hover {
+  background: #ff8700;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  color: black;
+}
+form {
+  color: white;
+  margin-right: 50px;
+}
+input {
+  border-radius: 3px;
+  background-color: #ff8700;
+  color: black;
+  padding: 3px;
+  width: 80px;
+}
+form > a {
+  font-size: 10px;
+  margin-left: 5px;
+  text-decoration: none;
+  color: white;
+}
+form > a:hover {
+  opacity: 0.7;
+}
+article {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  margin-bottom: 40px;
+}
+.flex {
+  display: flex;
+  /*background: #c06666;*/
+  max-width: 800px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+.img {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  height: 300px;
+  width: 300px;
+
+  box-shadow: 3px 3px #95a5a6;
+}
+
+/*Configuração minima pra cada item*/
+/*flex 1 - se expande*/
+.flex > div {
+  flex: 1 1 200px;
+  margin: 10px;
+}
+
+.flex a {
+  background: black;
+  padding: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+}
+.flex a:hover {
+  background: #4c4c4c;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  color: white;
+}
+.flex h3 {
+  text-align: center;
+}
+.flex p {
+  text-align: center;
+  font-size: 0.9rem;
+  margin: 10px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.new {
+  background: #d8d8d8;
+  width: 550px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  border: 5px solid black;
+  margin-top: 130px;
+}
+.image img {
+  width: 600px;
+  height: 300px;
+  transform: rotate(20deg);
+  margin-top: -50px;
+}
+.topic {
+  margin-top: 70px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.topic h1 {
+  text-shadow: 1px 1px 1px #d8d8d8;
+}
+.topic h3 {
+  background: #fbb51f;
+  padding: 5px;
+  color: black;
+  border-radius: 2px;
+}
+.topic h3:hover {
+  background: #ff8700;
+  font-weight: bold;
+  transition-duration: 1s;
+}

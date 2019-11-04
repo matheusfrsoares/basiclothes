@@ -1,0 +1,86 @@
+body {
+  font-family: sans-serif;
+  background: #d8d8d8;
+}
+header {
+  width: 100%;
+  background: #262626;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header > h1 {
+  color: #d8d8d8;
+  margin-left: 50px;
+  text-shadow: 1px 1px 1px black;
+}
+nav {
+  width: 100%;
+  margin-left: 20px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+nav > a {
+  background: #d8d8d8;
+  margin: 5px;
+  padding: 3px;
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+  border-radius: 2px;
+}
+nav > a:hover {
+  background: black;
+  transition-delay: 0.5s;
+  transition-duration: 0.5s;
+  color: white;
+}
+
+section {
+  background: #d8d8d8;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+article {
+  background: #d8d8d8;
+  width: 800px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+}
+article img {
+  width: 380px;
+  height: 160px;
+}
+
+.descricao {
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.descricao a {
+  font-size: 20px;
+}
+
+.descricao p {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.artigo {
+  display: flex;
+}
+
+.artigo:nth-child(2) {
+  flex-direction: row-reverse;
+}

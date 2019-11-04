@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="src/contato.css" />
+    <meta charset="UTF-8" />
+    <title>Fênix</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>BASICLOTHES</h1>
+      <nav>
+        <a href="index.html">HOME</a>
+        <a href="produtos.html">PRODUTOS</a>
+        <a href="contato.html">CONTATO</a>
+      </nav>
+      <form>
+        <label for="uname"><b>LOGIN :</b></label>
+        <input type="text" placeholder="" name="uname" required />
+        <br />
+        <label for="psw"><b>SENHA :</b></label>
+        <input type="password" placeholder="" name="psw" required />
+        <a href="cadastro.html">Cadastre-se</a>
+      </form>
+    </header>
+    <section class="container1">
+      <div class="container">
+        <h3>
+          Olá, estamos sempre dispostos a te entender e a melhorar para
+          ajudá-lo:
+        </h3>
+        <form action="#" class="formulariocontato" method="post" tabindex="1">
+          <input
+            type="text"
+            class="forminput"
+            name="nome"
+            placeholder="NOME"
+            required
+          />
+          <input
+            type="email"
+            class="forminput"
+            name="email"
+            placeholder="EMAIL"
+            required
+          />
+          <input
+            type="tel"
+            class="forminput"
+            name="tel"
+            placeholder="DDD+TELEFONE"
+          />
+          <textarea
+            class="formtextarea"
+            name="conteudo"
+            placeholder="SUA OPINIÃO, SEJA CRÍTICA, ELOGIO OU SUGESTÃO É EXTREMAMENTE IMPORTANTE."
+            required
+          ></textarea>
+          <button type="submit" class="formbutton">Enviar</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
